@@ -1,6 +1,6 @@
 //
-//  WidgramsApp.swift
-//  Widgrams
+//  WidgramApp.swift
+//  Widgram
 //
 //  Created by jmanerr on 4/2/23.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct WidgramsApp: App {
+struct WidgramApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

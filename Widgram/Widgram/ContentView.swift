@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Widgrams
+//  Widgram
 //
 //  Created by jmanerr on 4/2/23.
 //
@@ -13,7 +13,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Widgram")
         }
         .padding()
     }

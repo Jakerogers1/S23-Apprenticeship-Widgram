@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2829E2FE29DA4BC700FEEFD6 /* WidgramsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2829E2FD29DA4BC700FEEFD6 /* WidgramsApp.swift */; };
-		2829E30029DA4BC700FEEFD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2829E2FF29DA4BC700FEEFD6 /* ContentView.swift */; };
-		2829E30229DA4BC800FEEFD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2829E30129DA4BC800FEEFD6 /* Assets.xcassets */; };
-		2829E30629DA4BC800FEEFD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2829E30529DA4BC800FEEFD6 /* Preview Assets.xcassets */; };
+		2802FA4229DA4D6F00DE0AC1 /* WidgramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2802FA4129DA4D6F00DE0AC1 /* WidgramApp.swift */; };
+		2802FA4429DA4D6F00DE0AC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2802FA4329DA4D6F00DE0AC1 /* ContentView.swift */; };
+		2802FA4629DA4D7100DE0AC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2802FA4529DA4D7100DE0AC1 /* Assets.xcassets */; };
+		2802FA4A29DA4D7100DE0AC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2802FA4929DA4D7100DE0AC1 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2829E2FA29DA4BC700FEEFD6 /* Widgrams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Widgrams.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2829E2FD29DA4BC700FEEFD6 /* WidgramsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgramsApp.swift; sourceTree = "<group>"; };
-		2829E2FF29DA4BC700FEEFD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		2829E30129DA4BC800FEEFD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2829E30329DA4BC800FEEFD6 /* Widgrams.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Widgrams.entitlements; sourceTree = "<group>"; };
-		2829E30529DA4BC800FEEFD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2802FA3E29DA4D6F00DE0AC1 /* Widgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Widgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2802FA4129DA4D6F00DE0AC1 /* WidgramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgramApp.swift; sourceTree = "<group>"; };
+		2802FA4329DA4D6F00DE0AC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2802FA4529DA4D7100DE0AC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2802FA4729DA4D7100DE0AC1 /* Widgram.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Widgram.entitlements; sourceTree = "<group>"; };
+		2802FA4929DA4D7100DE0AC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2829E2F729DA4BC600FEEFD6 /* Frameworks */ = {
+		2802FA3B29DA4D6F00DE0AC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,38 +33,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2829E2F129DA4BC600FEEFD6 = {
+		2802FA3529DA4D6F00DE0AC1 = {
 			isa = PBXGroup;
 			children = (
-				2829E2FC29DA4BC700FEEFD6 /* Widgrams */,
-				2829E2FB29DA4BC700FEEFD6 /* Products */,
+				2802FA4029DA4D6F00DE0AC1 /* Widgram */,
+				2802FA3F29DA4D6F00DE0AC1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2829E2FB29DA4BC700FEEFD6 /* Products */ = {
+		2802FA3F29DA4D6F00DE0AC1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2829E2FA29DA4BC700FEEFD6 /* Widgrams.app */,
+				2802FA3E29DA4D6F00DE0AC1 /* Widgram.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2829E2FC29DA4BC700FEEFD6 /* Widgrams */ = {
+		2802FA4029DA4D6F00DE0AC1 /* Widgram */ = {
 			isa = PBXGroup;
 			children = (
-				2829E2FD29DA4BC700FEEFD6 /* WidgramsApp.swift */,
-				2829E2FF29DA4BC700FEEFD6 /* ContentView.swift */,
-				2829E30129DA4BC800FEEFD6 /* Assets.xcassets */,
-				2829E30329DA4BC800FEEFD6 /* Widgrams.entitlements */,
-				2829E30429DA4BC800FEEFD6 /* Preview Content */,
+				2802FA4129DA4D6F00DE0AC1 /* WidgramApp.swift */,
+				2802FA4329DA4D6F00DE0AC1 /* ContentView.swift */,
+				2802FA4529DA4D7100DE0AC1 /* Assets.xcassets */,
+				2802FA4729DA4D7100DE0AC1 /* Widgram.entitlements */,
+				2802FA4829DA4D7100DE0AC1 /* Preview Content */,
 			);
-			path = Widgrams;
+			path = Widgram;
 			sourceTree = "<group>";
 		};
-		2829E30429DA4BC800FEEFD6 /* Preview Content */ = {
+		2802FA4829DA4D7100DE0AC1 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				2829E30529DA4BC800FEEFD6 /* Preview Assets.xcassets */,
+				2802FA4929DA4D7100DE0AC1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -72,39 +72,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2829E2F929DA4BC600FEEFD6 /* Widgrams */ = {
+		2802FA3D29DA4D6F00DE0AC1 /* Widgram */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2829E30929DA4BC800FEEFD6 /* Build configuration list for PBXNativeTarget "Widgrams" */;
+			buildConfigurationList = 2802FA4D29DA4D7100DE0AC1 /* Build configuration list for PBXNativeTarget "Widgram" */;
 			buildPhases = (
-				2829E2F629DA4BC600FEEFD6 /* Sources */,
-				2829E2F729DA4BC600FEEFD6 /* Frameworks */,
-				2829E2F829DA4BC600FEEFD6 /* Resources */,
+				2802FA3A29DA4D6F00DE0AC1 /* Sources */,
+				2802FA3B29DA4D6F00DE0AC1 /* Frameworks */,
+				2802FA3C29DA4D6F00DE0AC1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Widgrams;
-			productName = Widgrams;
-			productReference = 2829E2FA29DA4BC700FEEFD6 /* Widgrams.app */;
+			name = Widgram;
+			productName = Widgram;
+			productReference = 2802FA3E29DA4D6F00DE0AC1 /* Widgram.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2829E2F229DA4BC600FEEFD6 /* Project object */ = {
+		2802FA3629DA4D6F00DE0AC1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					2829E2F929DA4BC600FEEFD6 = {
+					2802FA3D29DA4D6F00DE0AC1 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 2829E2F529DA4BC600FEEFD6 /* Build configuration list for PBXProject "Widgrams" */;
+			buildConfigurationList = 2802FA3929DA4D6F00DE0AC1 /* Build configuration list for PBXProject "Widgram" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,42 +112,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 2829E2F129DA4BC600FEEFD6;
-			productRefGroup = 2829E2FB29DA4BC700FEEFD6 /* Products */;
+			mainGroup = 2802FA3529DA4D6F00DE0AC1;
+			productRefGroup = 2802FA3F29DA4D6F00DE0AC1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2829E2F929DA4BC600FEEFD6 /* Widgrams */,
+				2802FA3D29DA4D6F00DE0AC1 /* Widgram */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2829E2F829DA4BC600FEEFD6 /* Resources */ = {
+		2802FA3C29DA4D6F00DE0AC1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2829E30629DA4BC800FEEFD6 /* Preview Assets.xcassets in Resources */,
-				2829E30229DA4BC800FEEFD6 /* Assets.xcassets in Resources */,
+				2802FA4A29DA4D7100DE0AC1 /* Preview Assets.xcassets in Resources */,
+				2802FA4629DA4D7100DE0AC1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2829E2F629DA4BC600FEEFD6 /* Sources */ = {
+		2802FA3A29DA4D6F00DE0AC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2829E30029DA4BC700FEEFD6 /* ContentView.swift in Sources */,
-				2829E2FE29DA4BC700FEEFD6 /* WidgramsApp.swift in Sources */,
+				2802FA4429DA4D6F00DE0AC1 /* ContentView.swift in Sources */,
+				2802FA4229DA4D6F00DE0AC1 /* WidgramApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2829E30729DA4BC800FEEFD6 /* Debug */ = {
+		2802FA4B29DA4D7100DE0AC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		2829E30829DA4BC800FEEFD6 /* Release */ = {
+		2802FA4C29DA4D7100DE0AC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,15 +256,15 @@
 			};
 			name = Release;
 		};
-		2829E30A29DA4BC800FEEFD6 /* Debug */ = {
+		2802FA4E29DA4D7100DE0AC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Widgrams/Widgrams.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Widgram/Widgram.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Widgrams/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Widgram/Preview Content\"";
 				DEVELOPMENT_TEAM = CQYY5C2BCK;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -284,7 +284,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "App-Team-Carolina.Widgrams";
+				PRODUCT_BUNDLE_IDENTIFIER = "App-Team-Carolina.Widgram";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -294,15 +294,15 @@
 			};
 			name = Debug;
 		};
-		2829E30B29DA4BC800FEEFD6 /* Release */ = {
+		2802FA4F29DA4D7100DE0AC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Widgrams/Widgrams.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Widgram/Widgram.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Widgrams/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Widgram/Preview Content\"";
 				DEVELOPMENT_TEAM = CQYY5C2BCK;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -322,7 +322,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "App-Team-Carolina.Widgrams";
+				PRODUCT_BUNDLE_IDENTIFIER = "App-Team-Carolina.Widgram";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -335,25 +335,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2829E2F529DA4BC600FEEFD6 /* Build configuration list for PBXProject "Widgrams" */ = {
+		2802FA3929DA4D6F00DE0AC1 /* Build configuration list for PBXProject "Widgram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2829E30729DA4BC800FEEFD6 /* Debug */,
-				2829E30829DA4BC800FEEFD6 /* Release */,
+				2802FA4B29DA4D7100DE0AC1 /* Debug */,
+				2802FA4C29DA4D7100DE0AC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2829E30929DA4BC800FEEFD6 /* Build configuration list for PBXNativeTarget "Widgrams" */ = {
+		2802FA4D29DA4D7100DE0AC1 /* Build configuration list for PBXNativeTarget "Widgram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2829E30A29DA4BC800FEEFD6 /* Debug */,
-				2829E30B29DA4BC800FEEFD6 /* Release */,
+				2802FA4E29DA4D7100DE0AC1 /* Debug */,
+				2802FA4F29DA4D7100DE0AC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2829E2F229DA4BC600FEEFD6 /* Project object */;
+	rootObject = 2802FA3629DA4D6F00DE0AC1 /* Project object */;
 }
